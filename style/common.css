@@ -1,0 +1,18 @@
+
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+  /*这里书写手机端的css代码，手机端的css代码是在pc端的代码基础上书写，类似于补充*/
+.iframes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+ 
+.iframes-container iframe {
+  margin: 5px; /* 可以根据需要调整间距 */
+}
+}
